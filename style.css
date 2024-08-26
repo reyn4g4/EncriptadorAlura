@@ -1,0 +1,197 @@
+html {
+    font-family: 'Inter', sans-serif;
+    background-image: url('img/fondo.jpg'); /* Cambia 'background.jpg' por el nombre de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen se mantenga fija al hacer scroll */
+    display: flex;
+    margin: 25px;
+}
+
+.titulo {
+    font-size: 50px; /* Ajusta el tamaño de la fuente según prefieras */
+    color: #0A3871; /* Color principal del texto */
+    text-align: center; /* Centra el título horizontalmente */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-weight: bold; /* Hace que el título sea negrita */
+    text-transform: uppercase; /* Hace que el texto sea todo en mayúsculas */
+    position: relative;
+    z-index: 1;
+    /* Efecto de sombra 3D */
+    text-shadow: 
+        1px 1px 2px #333,  /* Primera sombra para dar efecto de profundidad */
+        2px 2px 4px #000,  /* Segunda sombra para mayor profundidad */
+        3px 3px 6px #000,  /* Tercera sombra para más profundidad */
+        0 0 10px #00e6e6, /* Brillo interno */
+        0 0 20px #00e6e6, /* Brillo más fuerte */
+        0 0 30px #00ffff, /* Efecto de neón */
+        0 0 40px #00ffff, /* Efecto de neón más fuerte */
+        0 0 50px #00ffff, /* Efecto de neón */
+        0 0 60px #00ffff; /* Efecto de neón máximo */
+}
+
+
+.section-medio .logo {
+    width: 10px; /* Cambia el tamaño según sea necesario */
+    height: 10px; /* Cambia el tamaño según sea necesario */
+    display: block; /* Asegura que se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+
+.section-medio input {
+    position: absolute;
+    background-color: #F3F5FC; 
+    border: none;
+    height: 400px;
+    width: 577px;
+    font-size: 32px;
+    color: #0A3871;
+    outline: none;
+    margin-left: 240px;
+}
+
+.botones{
+    position: absolute;
+    top: 700px; /* Mueve los botones 20px hacia arriba */
+    left: 240px;
+}
+
+
+.botones p{
+    color:#495057;
+    
+}
+
+.botones .boton1{
+    width: 328px;
+    height: 67px;
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    padding: 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+}
+
+.boton1:hover{
+    background-color: #14498b;
+}
+
+.botones .boton2{
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-color: #0A3871 solid 1px;
+    padding: 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton2:hover{
+
+    background-color: #cbd0d8;
+    
+}
+
+.rectangulo, .rectangulo-2{
+    position: relative;
+    left: 1000px;
+    top: -20px;
+    width: 400px;
+    height: 644px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -10px black;
+
+}
+
+
+.contenido-rec {
+    position: relative;
+    top: 283px;
+    left: 32px;
+
+    width: 336px;
+    text-align: center;
+
+}
+
+/*Modificacion al rectangulo 2 del area de codificacion*/
+.contenido-rec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rectangulo-2 textarea{
+    background-color:white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 336px;
+    height: 781px;
+    font-size: 26px;
+    font-family:'Inter', sans-serif;
+    color: #0A3871;
+    resize: none;
+}
+
+
+.rectangulo-2 button{
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    background-color:white;
+    border-color: #0A3871 solid 1px;
+    padding: 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.rectangulo-2 button:hover{
+    background-color:rgb(237, 232, 232);
+}
+
+footer{
+    width: 1500px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+footer .autor{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.autor p {
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    color: #0A3871; /* Color azul */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-shadow: 
+        1px 1px 2px #333,  /* Sombra para el efecto 3D */
+        2px 2px 4px #000,  /* Sombra adicional para profundidad */
+        3px 3px 6px #000;  /* Sombra más grande para el 3D */
+    margin-top: 20px; /* Espacio superior */
+}

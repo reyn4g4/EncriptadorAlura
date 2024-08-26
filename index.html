@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Reto Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Encriptador de Texto</h1> 
+    </header>
+
+
+    <main>
+        <img class="logo" src="img/Logo.png" alt="Logo" style="width: 100px; height: 100px;">
+
+
+        <section class="section-medio">
+
+            <input id="texto-encriptar" type="text" placeholder="Ingrese texto aqui">
+
+            <div class="botones">
+
+                <p> <img src="img/Logo2.png" alt="logo2"> Solo letras minusculas y acentos</p>
+
+                <div class="dos-botones">
+                    <button onclick="encripta();" class="boton1">Encriptar</button>
+                    <button onclick="desencripta();" class="boton2">Desencriptar</button>
+                </div>
+
+            </div>
+
+            <div id="rec-1" class="rectangulo">
+                <div class="contenido-rec">
+
+                    <img width="336px" height="304px" class="muneco" src="img/Muñeco.png" alt="buscar">
+
+                    <h3>Ningun mensaje fue encontrado</h3>
+                    <p>Encripe el texto que deseas encriptar o desencriptar</p>
+                </div>
+
+            </div>
+
+            <div id="rec-2" class="rectangulo-2" hidden>
+                <div class="contenido-rec-2">
+                    <div class="area">
+                        <textarea id="area-encriptado" name="area-encriptado" cols="40" rows="50"></textarea>
+                    </div>
+                    <div class="boton-copiar">
+                        <button onclick="copiar();" class=>Copiar</button>
+                    </div>
+
+                </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="autor">
+            <p>Reynaga Espiridion Julio Cesar</p>
+        </div>
+
+        <div class="redes">
+            <div>
+                <a href="https://www.linkedin.com/in/julio-cesar-reynaga-espiridion-0a2929233"><img
+                        src="img/linkedin64.png" alt="linkeid"></a>
+            </div>
+            <div>
+                <a href="https://github.com/reyn4g4"><img src="img/github64.png" alt="github"></a>
+            </div>
+
+
+        </div>
+
+    </footer>
+</body>
+
+<script src="main.js"></script>
+
+</html>
